@@ -187,6 +187,7 @@ h2.tittle {
 
 /* Capabilities */
 .capabilities {
+    background-color: #fafafa;
     padding: 62px 0 184px;
     text-align: center;
 }
@@ -253,6 +254,61 @@ h2.tittle {
     text-decoration: none;
 }
 
+/* Technologies */
+
+.technologies {
+    padding: 62px 0 104px;
+    text-align: center;
+}
+
+.technologies-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.technologies-item {
+    width: 255px;
+    height: 226px;
+    position: relative;
+}
+
+.item-number {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    color: rgba(16, 16, 16, 0.08);
+}
+
+.technologies-item img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 66px;
+}
+
+.technologies-item:first-child img {
+    top: 56px;
+}
+
+.technologies-item:nth-child(3) img {
+    top: 60px;
+}
+
+.technologies .h3-text {
+    margin: 14px 0 10px;
+}
+
+
+.technologies .p-text {
+    line-height: 15px;
+}
+
+
+
+
+
 @media screen and (max-width: 1440px) {
     .container {
         padding: 0 15px;
@@ -271,6 +327,11 @@ h2.tittle {
 
     .review-text {
         max-width: 340px;
+    }
+
+    .technologies-flex {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
