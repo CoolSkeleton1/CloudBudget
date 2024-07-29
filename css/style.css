@@ -305,6 +305,41 @@ h2.tittle {
     line-height: 15px;
 }
 
+/* Keep money */
+.keep-money {
+    padding: 94px 0;
+    background-color: var(--orange-color);
+}
+
+.keep-money-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.keep-money-text {
+    color: #fff;
+    max-width: 445px;
+}
+
+.keep-money-text p {
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    padding: 50px 0 40px;
+}
+
+.keep-money-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.keep-money-img img {
+    max-width: 445px;
+    width: 100%;
+}
+
 
 
 
@@ -332,6 +367,10 @@ h2.tittle {
     .technologies-flex {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .keep-money-text {
+        max-width: 345px;
     }
 }
 
@@ -365,6 +404,15 @@ h2.tittle {
 
     .capabilities-grid {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .keep-money-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .keep-money-text {
+        max-width: 445px;
     }
 }
 
