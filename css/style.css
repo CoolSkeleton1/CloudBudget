@@ -401,6 +401,30 @@ h2.tittle {
     background-color: #fff;
 }
 
+/* Footer */
+
+.footer {
+    background-color: #fafafa;
+    padding: 42px 0 48px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+}
+
+.footer p {
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    max-width: 176px;
+}
+
+.footer .container p:nth-child(2) {
+    margin: 18px 0 44px;
+}
 
 
 @media screen and (max-width: 1440px) {
